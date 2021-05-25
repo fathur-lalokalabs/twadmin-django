@@ -1,5 +1,8 @@
 __pycache__/
 
+# Distribution / packaging
+dist/
+
 # node modules
 /node_modules
 
