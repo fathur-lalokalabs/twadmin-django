@@ -4,6 +4,10 @@ import os
 import sys
 import pathlib
 
+PROJECT_ROOT = pathlib.Path(__file__).parent.absolute()
+
+sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
+
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'twadmin.settings')
     try:
