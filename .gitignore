@@ -2,6 +2,7 @@ __pycache__/
 
 # Distribution / packaging
 dist/
+static/build/
 
 # node modules
 /node_modules

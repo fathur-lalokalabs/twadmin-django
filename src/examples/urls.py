@@ -13,5 +13,5 @@ from . import views
 app_name = "examples"
 
 urlpatterns = [
-    path("", views.index, name="index"),
+    path("", views.index, name="dashboard"),
 ]

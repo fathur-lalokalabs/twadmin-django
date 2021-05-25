@@ -1,7 +1,14 @@
 let mix = require('laravel-mix');
 
-mix.js('src/fe/js/app.js', 'dist/js');
+let staticPath = "static/build";
+let resourcesPath = "src/fe";
 
-mix.postCss('src/fe/css/app.css', 'dist/css', [
+// compile
+
+mix.js(`${resourcesPath}/js/app.js`, `${staticPath}/js`);
+
+mix.scripts(`${resourcesPath}/js/admin`, `${staticPath}/js/admin.js`);
+
+mix.postCss(`${resourcesPath}/css/app.css`, `${staticPath}/css`, [
     require('tailwindcss'),
 ]);

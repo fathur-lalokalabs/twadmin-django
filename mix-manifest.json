@@ -1,4 +1,5 @@
 {
-    "/dist/js/app.js": "/dist/js/app.js",
-    "/dist/css/app.css": "/dist/css/app.css"
+    "/static/build/js/app.js": "/static/build/js/app.js",
+    "/static/build/css/app.css": "/static/build/css/app.css",
+    "/static/build/js/admin.js": "/static/build/js/admin.js"
 }
